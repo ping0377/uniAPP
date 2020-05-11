@@ -1,0 +1,76 @@
+
+page {
+	font-size: 15px;
+}
+uni-segmented-control .segmented-control {
+	width: 100%;
+	height: 75rpx;
+}
+.segmented-control-item {
+	line-height: 75rpx;
+}
+.datatiame {
+	border-bottom: 3px solid #D8D8D8;
+	border-top: 3px solid #D8D8D8;
+	height: 65rpx;
+	line-height: 65rpx;
+}
+.datatiame view {
+	display: inline-block;
+}
+.datatiame image {
+	position: absolute;
+	right: 13rpx;
+	top: 82rpx;
+	width: 65rpx;
+	height: 65rpx;
+}
+.data {
+	margin-right: 10rpx;
+}
+
+/* 订单详情 */
+.bag_view {
+	border-bottom: 1px solid rgb(100, 100, 100);
+}
+.bag_img,
+.bag_type,
+.bag_data,
+.icon_r {
+	display: inline-block;
+}
+.bag_type {
+	width: 290rpx;
+}
+.bag_img {
+	padding: 15rpx;
+}
+.bag_img image {
+	width: 90rpx;
+	height: 90rpx;
+}
+.bag-type,
+.data_type {
+	font-weight: 600;
+}
+.bag-type,
+.data_type {
+	position: relative;
+	top: -16rpx;
+}
+.bag_data {
+	width: 38%;
+	text-align: right;
+}
+.right {
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+	top: -25rpx;
+	margin-left: 10rpx;
+}
+.to {
+	display: inline-block;
+	margin: 0 15ups;
+}
+

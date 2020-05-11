@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "普通员工登录",
+  "usingComponents": {
+    "an-layer": "/components/an-layer/an-layer",
+    "m-input": "/components/m-input/m-input"
+  }
+}

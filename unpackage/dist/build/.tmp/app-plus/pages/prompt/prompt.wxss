@@ -1,0 +1,12 @@
+
+.prompt {
+	text-align: center;
+}
+.prompt .iconfont {
+	font-size: 105px;
+	color: blue;
+}
+.title {
+	font-size: 20px;
+}
+

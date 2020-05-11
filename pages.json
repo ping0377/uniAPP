@@ -1,0 +1,186 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/pagehome/pagehome",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/Login/Login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "统计"
+			}
+		}, {
+			"path": "pages/orderForm/orderForm",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		}, {
+			"path": "pages/IndividualCenter/IndividualCenter",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/cabinetPointDetail/cabinetPointDetail",
+			"style": {
+				"navigationBarTitleText": "柜点详情"
+			}
+		}, {
+			"path": "pages/orderFormDetails/orderFormDetails",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}, {
+			"path": "pages/employeeStock/employeeStock",
+			"style": {
+				"navigationBarTitleText": "员工存件"
+			}
+		}, {
+			"path": "pages/employeePick-up/employeePick-up",
+			"style": {
+				"navigationBarTitleText": "员工取件"
+			}
+		}, {
+			"path": "pages/generalLogin/generalLogin",
+			"style": {
+				"navigationBarTitleText": "普通员工登录"
+			}
+		}, {
+			"path": "pages/customerPick-up/customerPick-up",
+			"style": {
+				"navigationBarTitleText": "顾客取件"
+			}
+		}, {
+			"path": "pages/revisePassword/revisePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/dispatching/dispatching",
+			"style": {
+				"navigationBarTitleText": "待配送列表"
+			}
+		}, {
+			"path": "pages/prompt/prompt",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/dispatchingInfo/dispatchingInfo",
+            "style" : {
+				"navigationBarTitleText": "配送单详情"
+			}
+        }
+        ,{
+            "path" : "pages/getmsg/getmsg",
+            "style" : {"navigationBarTitleText": "收衣点采集"}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "统计",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	//底部导航栏
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#39cffc",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/footer/u108.png",
+				"selectedIconPath": "static/footer/u108.png",
+				"text": "工作台"
+			}, {
+				"pagePath": "pages/orderForm/orderForm",
+				"iconPath": "static/footer/u103.png",
+				"selectedIconPath": "static/footer/u103.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/IndividualCenter/IndividualCenter",
+				"iconPath": "static/footer/u113.png",
+				"selectedIconPath": "static/footer/u113.png",
+				"text": "我的"
+			}
+		]
+	},
+
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [{
+				"name": "登录",
+				"path": "pages/Login/Login",
+				"query": ""
+			},
+			{
+				"name": "工作台", //模式名称
+				"path": "pages/index/index", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+			},
+			{
+				"name": "订单", //模式名称
+				"path": "pages/orderForm/orderForm", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "我的", //模式名称
+				"path": "pages/IndividualCenter/IndividualCenter", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+			},
+			{
+				"name": "柜点详情", //模式名称
+				"path": "pages/cabinetPointDetail/cabinetPointDetail", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+			},
+			{
+				"name": "订单详情", //模式名称
+				"path": "pages/orderFormDetails/orderFormDetails", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+			},
+			{
+				"name": "顾客取件", //模式名称
+				"path": "pages/customerPick-up/customerPick-up", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+			},
+			{
+				"name": "员工取件", //模式名称
+				"path": "pages/employeePick-up/employeePick-up", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+			},
+			{
+				"name": "员工存件", //模式名称
+				"path": "pages/employeeStock/employeeStock", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+			},
+			{
+				"name": "修改密码", //模式名称
+				"path": "pages/revisePassword/revisePassword", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+			},
+			{
+				"name": "待配送列表", //模式名称
+				"path": "pages/dispatching/dispatching", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+			},
+			{
+				"name": "普通员工登录", //模式名称
+				"path": "pages/generalLogin/generalLogin", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+			}
+		]
+	}
+}

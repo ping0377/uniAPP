@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "顾客取件",
+  "usingComponents": {
+    "an-layer": "/components/an-layer/an-layer"
+  }
+}

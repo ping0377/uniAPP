@@ -1,0 +1,313 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+page {
+	font-size: 14px;
+	background-color: rgb(231, 228, 228);
+}
+.my_info {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid rgb(231, 228, 228);
+	border-top: 1px solid rgb(231, 228, 228);
+	border-left: 3px solid #0000FF;
+	text-indent: 1.2em;
+}
+.user {
+	border-bottom: 1px solid rgb(231, 228, 228);
+}
+.circle {
+	font-size: 45rpx;
+	margin: 0 15rpx;
+}
+.user,
+.pwd {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	    -ms-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	position: relative;
+}
+.userpwd {
+	background-color: #FFFFFF;
+	border: 2px solid rgb(231, 228, 228);
+	border-right: none;
+}
+.pwd button {
+	position: absolute;
+	right: 20rpx;
+}
+.my_cabinet {
+	background-color: #FFFFFF;
+	border-left: 3px solid #0000FF;
+	border-bottom: 2px solid rgb(231, 228, 228);
+	text-indent: 1.2em;
+}
+.cabint_info {
+	padding-top: 7rpx;
+}
+.cabint_info_data {
+	width: 48%;
+	margin: 7rpx 1%;
+	border-radius: 7px;
+	display: inline-block;
+}
+.name-no {
+	background-color: #FFFFFF;
+	text-indent: 17rpx;
+	line-height: 30rpx;
+}
+.user_info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	    -ms-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+}
+.use,
+.unused {
+	width: 50%;
+	text-align: center;
+}
+.use {
+	background-color: #1AAD19;
+	color: #FFFFFF;
+}
+.unused {
+	background-color: rgb(201, 200, 200);
+}
+.prompt {
+	text-align: center;
+	margin-top: 30rpx;
+}
+.secede {
+	background-color: #FFFFFF;
+	text-align: right;
+}
+.secede text {
+	position: relative;
+	right: 20rpx;
+	color: #0000FF;
+}
+.sec_login {
+	width: 50%;
+	height: 150rpx;
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	/* display: none; */
+}
+.sec_login .affirm {
+	text-align: center;
+	font-size: 35rpx;
+	font-weight: 600;
+	line-height: 35px;
+	margin-top: 7rpx;
+}
+.option text {
+	font-size: 35rpx;
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	color: #666666;
+}
+.option text:first-child {}
+.option text:last-child {}
+/* 提示弹窗 */
+.uni-tip {
+	padding: 15px;
+	width: 250px;
+	background: #fff;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 10px;
+}
+.uni-tip-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+}
+.uni-tip-content {
+	padding: 5px;
+	font-size: 14px;
+	color: #666;
+}
+.uni-tip-group-button {
+	margin-top: 10px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.uni-tip-button {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #3b4144;
+}
+

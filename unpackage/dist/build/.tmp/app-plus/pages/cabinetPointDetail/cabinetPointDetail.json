@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "柜点详情",
+  "usingComponents": {
+    "an-layer": "/components/an-layer/an-layer"
+  }
+}

@@ -1,0 +1,27 @@
+
+.showimg ._img {
+	/* display: none; */
+	width: 200rpx;
+	height: 200rpx;
+}
+.content {
+	padding-left: 10rpx;
+	padding-top: 30rpx;
+}
+.addclick {
+	width: 150rpx;
+	height: 150rpx;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 150rpx;
+}
+.addclick:hover {
+	cursor: pointer;
+}
+.str {
+	font-size: 32rpx;
+}
+.iview {
+	margin-bottom: 6rpx;
+}
+

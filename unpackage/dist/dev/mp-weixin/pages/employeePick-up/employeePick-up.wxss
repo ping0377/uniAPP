@@ -1,0 +1,133 @@
+
+page {
+	background-color: #D8D8D8;
+}
+.alldata {
+	padding-top: 60rpx;
+}
+.sweep_code {
+	margin: 0 0 20rpx 20rpx;
+}
+.sweep_code_data {
+	position: relative;
+}
+.sweep_code_data text {
+	font-size: 50rpx;
+	position: absolute;
+	left: 415rpx;
+	top: -3rpx;
+}
+.sweep_code .sweep_code_data input {
+	width: 430rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	min-height: 80rpx;
+	border: 1px solid;
+	background-color: #FFFFFF;
+	display: inline-block;
+	border-radius: 160rpx 160rpx 160rpx 160rpx;
+	padding-left: 60rpx;
+	margin-right: 15rpx;
+}
+.sweep_code_data .iconfont {
+	z-index: 3;
+}
+.sweep_code button {
+	display: inline-block;
+	width: 200rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	background-color: #007AFF;
+	border-radius: 160rpx 160rpx 160rpx 160rpx;
+	color: #FFFFFF;
+}
+.info_view {
+	border-bottom: 2px solid #D8D8D8;
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+}
+.checkbox {
+	width: 120rpx;
+	height: 120rpx;
+	position: relative;
+}
+.checkbox checkbox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: scale(0.9) translate(-50%, -50%);
+	        transform: scale(0.9) translate(-50%, -50%);
+}
+.sackinfo {
+	width: 54%;
+}
+.distime {
+	width: 35%;
+	text-align: center;
+}
+.option {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: rwo nowrap;
+	        flex-flow: rwo nowrap;
+}
+.checkall {
+	width: 40%;
+	height: 71rpx;
+	background-color: #FFFFFF;
+	font-size: 32rpx;
+	line-height: 75rpx;
+	margin-right: 30rpx;
+}
+
+
+
+
+.select {
+	width: 58%;
+	height: 50rpx;
+	background-color: #FFFFFF;
+	border: 1px solid #D8D8D8;
+	padding: 10rpx;
+	border-radius: 10rpx;
+}
+
+
+.select view {
+	border: 1px solid #D8D8D8;
+	border-radius: 7rpx;
+}
+.select view text {
+	display: inline-block;
+}
+.select view text:first-child {
+	width: 45%;
+	text-indent: 3px;
+}
+.select view text:nth-of-type(2) {
+	width: 46%;
+	text-indent: 1em
+}
+.select .iconfont {
+	font-size: 22rpx;
+}
+.confirm {
+	background-color: #0A98D5;
+	color: #FFFFFF;
+}
+.orders {}
+.footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+

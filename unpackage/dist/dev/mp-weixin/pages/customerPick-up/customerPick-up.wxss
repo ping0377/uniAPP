@@ -1,0 +1,75 @@
+
+.alldata {
+	height: 100vh;
+	background-color: #D8D8D8;
+}
+.sweep_code {
+	margin: 0 0 20rpx 20rpx;
+	padding-top: 60rpx;
+}
+.sweep_code_data {
+	position: relative;
+}
+.sweep_code_data button {
+	font-size: 31rpx;
+}
+.sweep_code_data text {
+	font-size: 50rpx;
+	position: absolute;
+	left: 415rpx;
+	top: -3rpx;
+}
+.sweep_code_data .iconfont {
+	z-index: 2;
+}
+.sweep_code .sweep_code_data input {
+	width: 365rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	min-height: 80rpx;
+	border: 1px solid;
+	background-color: #FFFFFF;
+	display: inline-block;
+	border-radius: 160rpx 160rpx 160rpx 160rpx;
+	padding: 0 85rpx 0 60rpx;
+	margin-right: 15rpx;
+}
+.sweep_code button {
+	display: inline-block;
+	width: 200rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	background-color: #007AFF;
+	border-radius: 160rpx 160rpx 160rpx 160rpx;
+	color: #FFFFFF;
+}
+.exist_view {
+	padding: 0 20rpx;
+}
+.exist_info {
+	background-color: #FFFFFF;
+	border-radius: 26rpx;
+}
+.exist_info view:nth-last-of-type(n+2) {
+	border-bottom: 2px solid #D8D8D8;
+	text-indent: 1em;
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 1.1em;
+}
+.button_view {
+	background: #D8D8D8;
+}
+.exist_info button {
+	width: 50%;
+	display: inline-block;
+	background-color: #0000FF;
+	color: #FFFFFF;
+	border-radius: 0 0 0 25rpx;
+	margin-top: 15rpx;
+}
+.exist_info button:last-child {
+	background-color: #1AAD19;
+	border-radius: 0 0 25rpx 0;
+}
+

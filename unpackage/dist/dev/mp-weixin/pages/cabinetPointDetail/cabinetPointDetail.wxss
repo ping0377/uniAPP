@@ -1,0 +1,38 @@
+
+.all {
+	height: 100vh;
+	background-color: rgb(231, 228, 228);
+}
+.sacks_info {
+	background-color: #FFFFFF;
+	border-top: 1px solid rgb(231, 228, 228);
+	border-bottom: 1px solid rgb(231, 228, 228);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	position: relative;
+}
+.sacks_img {
+	padding: 12rpx 12rpx 0 12rpx;
+}
+.sacks_img image {
+	width: 60rpx;
+	height: 60rpx;
+}
+.sacks_str text:first-child {
+	margin-left: 0.7em;
+}
+.sacks_str text:nth-of-type(2) {
+	position: absolute;
+	right: 45rpx;
+}
+.data {
+	width: 16rpx;
+	position: absolute;
+	right: 22rpx;
+	font-weight: 600;
+}
+

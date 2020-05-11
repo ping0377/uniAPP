@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "员工存件",
+  "usingComponents": {
+    "an-layer": "/components/an-layer/an-layer"
+  }
+}

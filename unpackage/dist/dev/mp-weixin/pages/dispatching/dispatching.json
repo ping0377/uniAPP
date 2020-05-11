@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "待配送列表",
+  "usingComponents": {
+    "an-layer": "/components/an-layer/an-layer"
+  }
+}

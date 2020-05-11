@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "配送单详情",
+  "usingComponents": {
+    "an-layer": "/components/an-layer/an-layer",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control"
+  }
+}

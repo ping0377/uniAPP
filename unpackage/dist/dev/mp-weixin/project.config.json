@@ -1,0 +1,106 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.2",
+	"appid": "touristappid",
+	"projectname": "芙蓉云小店",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "登录",
+					"query": "",
+					"id": 0,
+					"pathName": "pages/Login/Login"
+				},
+				{
+					"name": "工作台",
+					"query": "",
+					"id": 1,
+					"pathName": "pages/index/index"
+				},
+				{
+					"name": "订单",
+					"query": "",
+					"id": 2,
+					"pathName": "pages/orderForm/orderForm"
+				},
+				{
+					"name": "我的",
+					"query": "",
+					"id": 3,
+					"pathName": "pages/IndividualCenter/IndividualCenter"
+				},
+				{
+					"name": "柜点详情",
+					"query": "",
+					"id": 4,
+					"pathName": "pages/cabinetPointDetail/cabinetPointDetail"
+				},
+				{
+					"name": "订单详情",
+					"query": "",
+					"id": 5,
+					"pathName": "pages/orderFormDetails/orderFormDetails"
+				},
+				{
+					"name": "顾客取件",
+					"query": "",
+					"id": 6,
+					"pathName": "pages/customerPick-up/customerPick-up"
+				},
+				{
+					"name": "员工取件",
+					"query": "",
+					"id": 7,
+					"pathName": "pages/employeePick-up/employeePick-up"
+				},
+				{
+					"name": "员工存件",
+					"query": "",
+					"id": 8,
+					"pathName": "pages/employeeStock/employeeStock"
+				},
+				{
+					"name": "修改密码",
+					"query": "",
+					"id": 9,
+					"pathName": "pages/revisePassword/revisePassword"
+				},
+				{
+					"name": "待配送列表",
+					"query": "",
+					"id": 10,
+					"pathName": "pages/dispatching/dispatching"
+				},
+				{
+					"name": "普通员工登录",
+					"query": "",
+					"id": 11,
+					"pathName": "pages/generalLogin/generalLogin"
+				}
+			]
+		}
+	}
+}

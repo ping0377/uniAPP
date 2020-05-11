@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"prompt { text-align: center; }\n.",[1],"prompt .",[1],"iconfont { font-size: 105px; color: blue; }\n.",[1],"title { font-size: 20px; }\n",],undefined,{path:"./pages/prompt/prompt.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/prompt/prompt.wxml') } }));

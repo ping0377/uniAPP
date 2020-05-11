@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "an-layer": "/components/an-layer/an-layer",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
